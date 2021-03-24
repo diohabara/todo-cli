@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "todo-cli"
+version = "0.1.0"
+description = "The CLI todo app"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Sphinx = "^3.5.2"
+mypy = "^0.812"
+
+[tool.poetry.scripts]
+main = "src:main:main"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
